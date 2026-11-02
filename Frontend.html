@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Enigma Machine </title>
+<style> h1{color: white} label{color: white} </style>
+</head>
+
+<body bgcolor="#0A2B36">
+<h1 align="center"> Enigma Converter </h1>
+
+<center>
+
+<br><br>
+
+<div>
+<label> Left Rotor </label>
+<select id= "left"> 
+<option value= "1"> "I" </option>
+<option value= "2"> "II" </option>
+<option value= "3"> "III" </option>
+</select>
+<input id= "leftpos" type="number" min="0" max="25" value="0"></input>
+</div>
+
+<br>
+
+<div>
+<label> Middle Rotor </label>
+<select id= "middle"> 
+<option value= "1"> "I" </option>
+<option value= "2"> "II" </option>
+<option value= "3"> "III" </option>
+</select>
+<input id= "middlepos" type="number" min="0" max="25" value="0"></input>
+</div>
+
+<br>
+
+<div>
+<label> Right Rotor </label>
+<select id= "right"> 
+<option value= "1"> "I" </option>
+<option value= "2"> "II" </option>
+<option value= "3"> "III" </option>
+</select>
+<input id= "rightpos" type="number" min="0" max="25" value="0"></input>
+</div>
+
+<br><br>
+
+<div>
+<textarea id= "inputText" width=200 height=100 placeholder="Enter text"></textarea>
+
+<br><br>
+
+<textarea id= "outputText" width=200 height=100 readonly></textarea>
+
+<br><br>
+
+<button id="Encrypt">Encrypt</button>
+<button id="Reset">Reset</button>
+<div>
+
+<script src="script.js">,/script>
+
+</center>
+</body>
+</html>
+
+
+
+
