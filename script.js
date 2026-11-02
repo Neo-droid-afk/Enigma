@@ -34,11 +34,9 @@ function step(){
 	if(rightRotor.pos==rightRotor.notch){middleRotor=(middleRotor.pos+1)%26}
 	if(middleRotor.pos==middleRotor.notch){leftRotor=(leftRotor.pos+1)%26}
 }
-
-function changeLetter(signal){
     
 
-function encrypt(text){}
+function encryptText(text){}
 
 document.getElementById("encryptButton").addEventListener("click", function(){
 
